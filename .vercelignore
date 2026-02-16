@@ -1,0 +1,12 @@
+# Local env (set MONGODB_URI in Vercel Dashboard instead)
+.env
+.env.local
+.env.*.local
+
+# Dependencies (Vercel installs from package.json)
+node_modules
+
+# Dev / IDE
+.idea
+.vscode
+*.log
